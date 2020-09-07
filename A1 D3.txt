@@ -1,0 +1,10 @@
+print("welcome for the altitude check")
+a=int(input("enter the altitude in ft: "))
+if a==1000 or a<1000:
+    print("safe to land")
+elif a>1000 and a<5000:
+    print("bring it down to 1000")
+elif a>5000:
+    print("turn around")
+else:
+    print("invalid input")
